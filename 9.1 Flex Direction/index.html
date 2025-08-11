@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox basis and direction</title>
+
+
+
+  <style>
+    .red{
+      background-color: red;
+    }
+    .yellow{
+      background-color: yellow;
+    }
+    .green{
+      background-color: green;
+    }
+    .black{
+      background-color: wheat ;
+    }
+    .violet{
+      background-color: violet;
+    }
+    .container{
+      border: 5px solid indianred;
+      display: inline-flex;
+      flex-direction: column;
+    }
+    .container > *{
+      flex-basis: 100px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="red"> Red </div>
+    <div class="yellow"> Yellow </div>
+    <div class="green"> Green </div>
+    <div class="black"> white </div>
+    <div class="violet"> violet </div>
+  </div>
+</body>
+</html>
